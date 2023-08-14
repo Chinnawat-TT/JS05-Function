@@ -9,9 +9,12 @@
 // ```js
 function squareNum(num) {    // function active num = 2
   const result = num * num;     // result = 2*2 ,=> result = 4
-  
+  // console.log(result);       // ผลรับของฟังชั่น อยู่ใน decarlation result > return result
+  // return  result
 }
 
-console.log(squareNum(2)); // *  Ans = undefined
+console.log(squareNum(2)); // *  Ans = undefined  เพราะอยู่คนละ scope 
+
+
 // ```
 

@@ -10,8 +10,11 @@
 
 
 function sayHi(age) {
-    if (age < 12) alert('Hi kid');
+    if (age < 12){
+
+        alert('Hi kid')
+    };
 }
-console.log(sayHi); // *   show function
+//console.log(sayHi); // *   show function
 
 console.log(sayHi(10)); // ** function sayHi active ,if(10<12) => true 
