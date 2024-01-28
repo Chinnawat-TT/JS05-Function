@@ -8,4 +8,4 @@ let multiply = function(a,b) {
 }
 
 console.log(multiply)
-console.log(multiply(10,10));
+console.log(multiply(17,7));

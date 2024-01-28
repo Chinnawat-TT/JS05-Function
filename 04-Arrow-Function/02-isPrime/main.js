@@ -6,6 +6,7 @@ const isPrime = num => {
         if (num % d == 0) {
             return false;
         }
+
     }
 
     return true;
@@ -13,4 +14,5 @@ const isPrime = num => {
 
 console.log(isPrime(7));
 console.log(isPrime(8));
+console.log(isPrime(9));
 

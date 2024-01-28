@@ -13,10 +13,10 @@
 // ที่เหลือ หาร 4 ลงตัวเป็น  Leap Year
 
 // isLeapYear : Year => Boolean
-
+    //1.
 const isLeapYear = (year) =>{
-    1.
-    if(year % 4 === 0 && year % 100 != 0) {
+    
+    if(year % 4 === 0 && year % 100 != 0) {          // ถ้า ปีหารเอาเศษด้วย4 แล้วเท่า0 เเละ ปีหารเอาเศษด้วย100ไม่เท่ากับ0
         return true ;
     }else if (year % 100 === 0 && year %400 != 0){
         return false;
@@ -25,7 +25,8 @@ const isLeapYear = (year) =>{
     }else { 
             return false
     }
-
+}
+ console.log(isLeapYear(2023));
     
     // 2.
     // if(year % 400 == 0){
@@ -61,6 +62,6 @@ const isLeapYear = (year) =>{
     //5.
     // return year %100 === 0 ? year %400 == 0 : year % 4 === 0 ;
 
-}
+// }
 //6.
 // const isLeapYear =(year)=> year %100 === 0 ? year %400 == 0 : year % 4 === 0 ;

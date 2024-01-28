@@ -17,4 +17,4 @@ function sayHi() {
 
 name = 'Pete';
 
-sayHi(); // *  "Hi Pete"
+sayHi(); // *  "Hi Pete" เพราะ ใน FN scope ไม่มี local variable ตัวเเปร local สามารถออกมาใช้ค่า variable  outer scope ได้

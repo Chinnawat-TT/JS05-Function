@@ -9,15 +9,15 @@
 // ```
 
 // <!-- ```js
-function sayHi(name) {
-  if (name) {
-    alert("Hi " + name);
-    return;
-  } else {
-    return "Who are you";
-  }
-}
+// function sayHi(name) {
+//   if (name) {
+//     alert("Hi " + name);
+//     return;
+//   } else {
+//     return "Who are you";
+//   }
+// }
 
-// console.log(sayHi("John")); // *** Hi John
-console.log(sayHi()); // ****   Who are you
+// // console.log(sayHi("John")); // *** Hi John
+// console.log(sayHi()); // ****   Who are you
 // ``` -->

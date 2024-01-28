@@ -17,4 +17,6 @@ function sayHi(age) {
 }
 //console.log(sayHi); // *   show function
 
-console.log(sayHi(10)); // ** function sayHi active ,if(10<12) => true 
+
+// call Fn
+console.log(sayHi(10)); // ** function sayHi active ,if(10<12) => true  alert => Hi kid

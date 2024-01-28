@@ -18,4 +18,4 @@ if (true) {
     alert(`${phrase}, ${user}`);
   }
 }
-sayHi(); // *  Hello John
+sayHi(); // *  Hello John เพราะ ใน Fn scope ไม่มีตัวเเปร user ตัวเเปรใน Fn scope สามารถออกมาใช้ค่าตัวเเปร outer scope ได้

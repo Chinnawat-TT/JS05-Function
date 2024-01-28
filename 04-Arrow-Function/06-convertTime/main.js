@@ -8,6 +8,6 @@ const inDay = 24 ;
 const inMinute = 60 ;
 const inSecond = 60 ;
 
-const sum = num => (num*inDay)*inMinute*inSecond ;
+const result = num => (num*inDay)*inMinute*inSecond ;
 
-console.log(sum(1));
+console.log(result(1));

@@ -14,4 +14,4 @@
 
 const sum = num => num % 7 === 0 ;
 
-console.log(sum(23));
+console.log(sum(21));

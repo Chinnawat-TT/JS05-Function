@@ -7,6 +7,7 @@
 // ```
 
 // ```js
+
 const showModal = alert();  
 
-showModal("Execute modal"); // ** <---------------- alert empty 
+showModal("HELLO"); // ** <---------------- alert empty 

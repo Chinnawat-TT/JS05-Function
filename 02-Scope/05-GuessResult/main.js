@@ -12,7 +12,7 @@
 // console.log(message); // ** welcome to Thailand <<-------------
 // ```
 
-// ```js
+// // ```js
 let name = "John";
 
 function sayHi(input) {
@@ -20,6 +20,7 @@ function sayHi(input) {
    name = input;
 }
 
-sayHi();
+console.log(sayHi());  //  เนื่องจากcall FN ไม่ใส่ parameter ทำให้ code ในบรรทัด20 assign ค่าให้ name ไป = undefined
+
 console.log(name); // **** undefined <<----------------
-// ```
+// // ```

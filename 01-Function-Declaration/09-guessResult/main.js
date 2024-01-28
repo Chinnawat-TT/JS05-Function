@@ -7,4 +7,4 @@ function getLongText() {
   ("Lorem Ipsum is simply dummy text of the printing and typesetting industry.");
 }
 
-console.log(getLongText()); // undefined เพราะคำสั่ง return อยู่ก่อน ("Lorem Ipsum is simply dummy text of the printing and typesetting industry.");
+console.log(getLongText()); // undefined เพราะโค๊ดหลังreturn จะไม่ทำงาน
